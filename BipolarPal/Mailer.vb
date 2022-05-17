@@ -5,8 +5,8 @@ Module Mailer
 
 
     Public Sub SurroundingSub(ByVal mailTo As String, ByVal Subject As String, ByVal Body As String)
-        Dim mail As MailMessage = New MailMessage()
-        Dim SmtpServer As SmtpClient = New SmtpClient()
+        Dim mail As New MailMessage()
+        Dim SmtpServer As New SmtpClient()
         mail.From = New MailAddress("kazemguru@gmail.com")
         mail.[To].Add(mailTo)
         mail.Subject = Subject
@@ -14,7 +14,7 @@ Module Mailer
 
         mail.Body = Body
         SmtpServer.UseDefaultCredentials = False
-        Dim NetworkCred As NetworkCredential = New NetworkCredential("kazemguru@gmail.com", "bjkqbamgaczdhqrm")
+        Dim NetworkCred As New NetworkCredential("kazemguru@gmail.com", "bjkqbamgaczdhqrm")
         SmtpServer.Credentials = NetworkCred
         SmtpServer.EnableSsl = True
         SmtpServer.Port = 25

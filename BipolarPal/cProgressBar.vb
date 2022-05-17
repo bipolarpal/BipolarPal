@@ -76,11 +76,11 @@ Public Class ProgressBarCustomColor
         rect.Size = New SizeF(rect.Width - 2, rect.Height)
 
         Dim hsl As Single = Me.ForeColor.GetBrightness()
-        If m_ProgressBarStyle = BarStyle.Standard Then DrawStandardBar(e.Graphics, rect, hsl)
-        If m_ProgressBarStyle = BarStyle.Flat Then DrawFlatBar(e.Graphics, rect, hsl)
+        If m_ProgressBarStyle = BarStyle.Standard Then DrawStandardBar(e.Graphics, rect)
+        If m_ProgressBarStyle = BarStyle.Flat Then DrawFlatBar(e.Graphics, rect)
     End Sub
 
-    Private Sub DrawStandardBar(g As Graphics, rect As RectangleF, hsl As Single)
+    Private Sub DrawStandardBar(g As Graphics, rect As RectangleF)
         g.SmoothingMode = SmoothingMode.AntiAlias
         g.CompositingQuality = CompositingQuality.HighQuality
 
@@ -88,19 +88,17 @@ Public Class ProgressBarCustomColor
         Dim highColor = Color.FromArgb(160, baseColor)
 
         Using baseBrush = New SolidBrush(baseColor),
-              highBrush = New SolidBrush(highColor),
-              sf = New StringFormat(StringFormatFlags.MeasureTrailingSpaces)
-            sf.LineAlignment = StringAlignment.Center
-            sf.Alignment = StringAlignment.Center
+              highBrush = New SolidBrush(highColor)
+
 
             g.FillRectangle(highBrush, 1, 2, rect.Width, 9)
             g.FillRectangle(baseBrush, 1, 7, rect.Width, rect.Height - 1)
-            g.DrawString($"{Me.Value} %", Me.Parent.Font,
-                If(hsl > 0.49F, Brushes.Black, Brushes.White), Me.ClientRectangle, sf)
+
+
         End Using
     End Sub
 
-    Private Sub DrawFlatBar(g As Graphics, rect As RectangleF, hsl As Single)
+    Shared Sub DrawFlatBar(g As Graphics, rect As RectangleF)
         Using baseBrush = New SolidBrush(SystemColors.Highlight)
             g.FillRectangle(baseBrush, 2, 2, rect.Width - 2, rect.Height - 4)
         End Using

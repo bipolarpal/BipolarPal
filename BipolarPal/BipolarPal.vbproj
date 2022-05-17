@@ -21,6 +21,8 @@
     <PackageReleaseNotes>Release notes.</PackageReleaseNotes>
     <PackageTags>bipolar, bipolar disorder, mental, mental health</PackageTags>
     <Description>BipolarPal Description.</Description>
+    <OptionInfer>On</OptionInfer>
+    <NeutralLanguage>en-001</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>

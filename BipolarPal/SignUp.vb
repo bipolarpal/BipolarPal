@@ -121,7 +121,6 @@ Public Class SignUp
             ElseIf rowCount = 0 Then
 
 
-                Dim salt As String = "temp hash"
                 Dim strQuerySave As String = "INSERT Into Accounts (username, email, passwordhash) VALUES (@username, @email, @passwordhash)"
 
                 If (conn.State = ConnectionState.Closed) Then

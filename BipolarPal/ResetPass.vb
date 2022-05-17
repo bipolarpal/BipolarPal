@@ -170,7 +170,7 @@ Public Class ResetPass
     Dim counter As Integer = 1
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
-        counter = counter + 1
+        counter += 1
 
         If counter = 4 Then
             ChangePassword.Email = TextBox2.Text

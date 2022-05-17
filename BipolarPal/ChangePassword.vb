@@ -35,7 +35,7 @@ Public Class ChangePassword
         CalculateMeter(TextBox2.Text)
     End Sub
 
-    Private StrengthWords() As String = {"Very Very Weak", "Very Weak", "Weak", "Better", "Medium", "Strong", "Strongest"}
+    Private ReadOnly StrengthWords() As String = {"Very Very Weak", "Very Weak", "Weak", "Better", "Medium", "Strong", "Strongest"}
     Dim PassAccepted As Boolean
 
     Private Sub CalculateMeter(pass As String)
@@ -73,7 +73,7 @@ Public Class ChangePassword
 
 
     End Sub
-    Private Function GetColor(ByVal score As Integer) As Color
+    Shared Function GetColor(ByVal score As Integer) As Color
         Select Case score
             Case 0
                 Return Color.Red
