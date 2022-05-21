@@ -90,10 +90,11 @@ Public Class SignUp
             Dim query As String = "SELECT count(email) FROM accounts WHERE email=@email"
 
 
-            Dim connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BipolarPal.accdb;Persist Security Info=False;Jet OLEDB:Database Password=bRa2hAchAveb7iswUthO"
+            '  Dim connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BipolarPal.accdb;Persist Security Info=False;Jet OLEDB:Database Password=bRa2hAchAveb7iswUthO"
 
 
-
+            'Dim connString = "Driver={Microsoft Access Driver (*.mdb)};Data Source=BipolarPal.mdb;User ID=Admin;Password=bRa2hAchAveb7iswUthO;"
+            Dim connString As String = My.Settings.conString
 
             conn.ConnectionString = connString
                 cmd.Connection = conn

@@ -65,6 +65,18 @@ Namespace My
                 Me("isFirstRun") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\BipolarPal.mdb;Persi"& _ 
+            "st Security Info=False;User Id=admin;Jet OLEDB:Database Password=bRa2hAchAveb7is"& _ 
+            "wUthO;")>  _
+        Public ReadOnly Property conString() As String
+            Get
+                Return CType(Me("conString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

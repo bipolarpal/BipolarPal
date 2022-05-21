@@ -32,7 +32,10 @@ Public Class ResetPass
         End If
         Dim conn As New OleDbConnection
         Dim cmd As New OleDbCommand
-        Dim connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BipolarPal.accdb;Persist Security Info=False;Jet OLEDB:Database Password=bRa2hAchAveb7iswUthO"
+        'Dim connString = "Driver={Microsoft Access Driver (*.mdb)};Data Source=BipolarPal.mdb;User ID=Admin;Password=bRa2hAchAveb7iswUthO;"
+        Dim connString As String = My.Settings.conString
+
+        '  Dim connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BipolarPal.accdb;Persist Security Info=False;Jet OLEDB:Database Password=bRa2hAchAveb7iswUthO"
         Dim email As String = TextBox2.Text
         Dim GetCurrentDate As Date = Date.Now.ToString
 
