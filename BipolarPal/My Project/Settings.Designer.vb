@@ -69,22 +69,11 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\BipolarPal.mdb;Persi"& _ 
-            "st Security Info=True;user id=admin")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BipolarPal.accdb;Persist Security I"& _ 
+            "nfo=False;Jet OLEDB:Database Password=bRa2hAchAveb7iswUthO")>  _
         Public ReadOnly Property conString() As String
             Get
                 Return CType(Me("conString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\kazem\OneDrive\Desktop\Bip"& _ 
-            "olarPal\BipolarPal.accdb;Persist Security Info=True;Password=123")>  _
-        Public ReadOnly Property cc() As String
-            Get
-                Return CType(Me("cc"),String)
             End Get
         End Property
     End Class

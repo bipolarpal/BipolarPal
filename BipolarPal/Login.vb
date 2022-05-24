@@ -1,7 +1,4 @@
-﻿Imports System.Data.OleDb
-Imports System.Net.Mail
-
-Public Class Login
+﻿Public Class Login
 
 
     'Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click

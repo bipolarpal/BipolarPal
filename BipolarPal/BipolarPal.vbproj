@@ -26,7 +26,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
 
   <ItemGroup>
@@ -48,7 +49,9 @@
 
   <ItemGroup>
     <Import Include="System.Data" />
+    <Import Include="System.Data.OleDb" />
     <Import Include="System.Drawing" />
+    <Import Include="System.Management" />
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
 
@@ -88,7 +91,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="BipolarPal.accdb">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="bipolarpal.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
