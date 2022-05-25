@@ -1,6 +1,4 @@
-﻿Imports System.Data.OleDb
-
-Public Class ChangePassword
+﻿Public Class ChangePassword
     Private _Email As String = ""
     Friend Property Email As String
         Get
@@ -20,9 +18,7 @@ Public Class ChangePassword
         End Set
     End Property
 
-    Public Sub DoChangePWD(Email As String, Resetcode As String)
 
-    End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Me.Close()
@@ -169,7 +165,7 @@ Public Class ChangePassword
 
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        counter = counter + 1
+        counter += 1
 
         If counter = 4 Then
             Timer1.Enabled = False

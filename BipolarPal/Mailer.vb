@@ -5,6 +5,8 @@ Module Mailer
 
 
     Public Sub SurroundingSub(ByVal mailTo As String, ByVal Subject As String, ByVal Body As String)
+
+
         Dim mail As New MailMessage()
         Dim SmtpServer As New SmtpClient()
         mail.From = New MailAddress("kazemguru@gmail.com")

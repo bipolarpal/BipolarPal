@@ -1,7 +1,5 @@
 ﻿Imports System.ComponentModel
 Imports System.Drawing.Drawing2D
-Imports System.Drawing
-Imports System.Windows.Forms
 
 <DesignerCategory("Code")>
 Public Class ProgressBarCustomColor
