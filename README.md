@@ -2,11 +2,11 @@
 
 > **Globally, 46 million people around the world have bipolar disorder. ( Our World in Data, 2018) One survey of 11 countries found the lifetime prevalence of bipolar disorder was 2.4%.**
 
-> ## ***Many Mobile Apps; BUT NO single Desktop Software in all Internet to support this commuity!!***
+> ## ***Many Mobile Apps. BUT NO single Desktop Software on all Internet to support this community!!***
 
-> The quote says: The greatest fire starts from the smallest sparks!
+> The greatest fire starts from the smallest sparks!
 > 
-> **Welcome to Join: This is an open source initiative, welcome to join and be a member of BipolarPal Developers.**
+> **This is an open-source initiative. Welcome to merge and be a member of BipolarPal Developers.**
 
 
 www.bipolarpal.com
@@ -28,9 +28,9 @@ https://user-images.githubusercontent.com/104663680/174477993-7e501e91-507f-463a
 ![Login Window Code](https://www.bipolarpal.com/github/6.jpg)
 
 
---------------------------------------------------------------------------------
-#VB_NET_6, VS2022_Community, #MySQL_Server, SHA512_Cryptography
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+VB.NET 6.0.5, Visual Studio Communnity 2022, Visual Basic, Winforms, Cryptography, Graphics Design
+--------------------------------------------------------------------------------------------------
 
 **About Bipolar Disorder**
 
