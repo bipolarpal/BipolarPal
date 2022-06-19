@@ -10,7 +10,7 @@
 
 www.bipolarpal.com
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 About Bipolar Disorder
 Bipolar disorder, or manic depression, is a serious brain disorder that causes extreme shifts in mood, energy or functioning that can range from episodes of mania, or "highs," to episodes of depression, or "lows." These mood swings can be mild or severe and may last hours, days or months. These episodes usually begin in late adolescence, but can begin in early childhood or as late as a person’s 40s or 50s.
