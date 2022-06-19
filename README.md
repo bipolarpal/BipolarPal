@@ -2,8 +2,13 @@
 
 **Globally, 46 million people around the world have bipolar disorder. ( Our World in Data, 2018) One survey of 11 countries found the lifetime prevalence of bipolar disorder was 2.4%.
 **
-
 > **Many Mobile Apps; BUT NO single Desktop Software to support this commuity.**
+
+**This is an open source initiative, welcome to join and be a member of BipolarPal Developers.
+**
+
+
+www.bipolarpal.com
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -15,3 +20,4 @@ During an episode of mania, a person may have increased mental and physical ener
 **Approximately 2.3 million Americans are presently diagnosed with bipolar** disorder, but the number affected by this disorder is even greater. Bipolar disorder is a chronic condition and generally requires life-long treatment. With accurate diagnosis and treatment, people with bipolar disorder can lead full and productive lives. A strategy that combines medication and psychosocial treatment is optimal for managing the disorder over time.
 
 If left untreated, people with the disorder are at great risk for suicide, incarceration, substance abuse, job loss, or other harmful consequences. Approximately 40 percent of people with untreated bipolar disorder abuse alcohol or drugs. In addition, the mortality rate for people with untreated bipolar disorder is higher than it is for most types of heart disease and many types of cancer. Approximately 25-50 percent of people with bipolar disorder attempt suicide at least once; this is one of the highest rates for any psychiatric disorder.
+
