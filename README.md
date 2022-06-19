@@ -1,12 +1,14 @@
-# BipolarPal
+# Welcome to BipolarPal
 
 > **Globally, 46 million people around the world have bipolar disorder. ( Our World in Data, 2018) One survey of 11 countries found the lifetime prevalence of bipolar disorder was 2.4%.**
 
 > ## ***Many Mobile Apps. BUT NO single Desktop Software on all Internet to support this community!!***
 
 > The greatest fire starts from the smallest sparks!
-> 
-> **This is an open-source initiative. Welcome to merge and be a member of BipolarPal Developers.**
+
+What are we doing?
+
+> **This is an open-source initiative. Welcome to contribute and be a member of BipolarPal Developers.**
 
 
 www.bipolarpal.com
