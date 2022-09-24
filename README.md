@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="RSLlIRb_dFe6uSxZkCA-u7m20tGW1XxSGimu6LxZPfk" />
 # Welcome to BipolarPal
 
 > **Globally, 46 million people around the world have bipolar disorder. ( Our World in Data, 2018) One survey of 11 countries found the lifetime prevalence of bipolar disorder was 2.4%.**
